@@ -57,13 +57,27 @@
 </script>
 
 <h1>
-	Nostr Authorization (<a
-		href="https://github.com/nostr-protocol/nips/blob/master/98.md"
-		target="_blank"
-		rel="noopener noreferrer"
-	>
-		NIP-98
-	</a>)
+	<span>
+		Nostr Authorization (<a
+			href="https://github.com/nostr-protocol/nips/blob/master/98.md"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			NIP-98
+		</a>)
+	</span>
+	<span>
+		<a
+			href="https://github.com/SnowCait/nostr-authorization"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<picture>
+				<source srcset="/github-mark-white.svg" media="(prefers-color-scheme: dark)" />
+				<img src="/github-mark.svg" alt="GitHub" />
+			</picture>
+		</a>
+	</span>
 </h1>
 
 <form onsubmit={generate}>
@@ -109,6 +123,11 @@
 {/if}
 
 <style>
+	img {
+		width: 2rem;
+		height: 2rem;
+	}
+
 	clipboard-copy {
 		font-size: 1rem;
 		font-weight: normal;
