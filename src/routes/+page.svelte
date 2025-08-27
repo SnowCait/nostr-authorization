@@ -73,8 +73,8 @@
 			rel="noopener noreferrer"
 		>
 			<picture>
-				<source srcset="/github-mark-white.svg" media="(prefers-color-scheme: dark)" />
-				<img src="/github-mark.svg" alt="GitHub" />
+				<source srcset="github-mark-white.svg" media="(prefers-color-scheme: dark)" />
+				<img src="github-mark.svg" alt="GitHub" />
 			</picture>
 		</a>
 	</span>
